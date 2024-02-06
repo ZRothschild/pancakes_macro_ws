@@ -1,0 +1,7 @@
+[workspace]
+package.authors = ["zrothschild"]
+members = [
+    "pancakes",
+    "vec_macro_rules",
+    "hello_macro"
+]
