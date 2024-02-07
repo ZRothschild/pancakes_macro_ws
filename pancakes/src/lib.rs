@@ -1,10 +1,12 @@
 pub mod tool;
 
-use hello_macro::HelloMacro;
-use tool::help;
+// use crate::tool::help;
+// use hello_macro::HelloMacro;
 
-impl HelloMacro for help::Pancakes  {
-    fn hello_macro() {
-        println!("Hello, Macro! My name is Pancakes!");
-    }
-}
+// // 使用宏使用了 trarit 不能重复实现 注释掉
+
+// impl HelloMacro for help::Pancakes {
+//     fn hello_macro() {
+//         println!("Hello, Macro! My name is Pancakes!");
+//     }
+// }

@@ -1,0 +1,15 @@
+[package]
+name = "hello_macro_derive"
+version = "0.1.0"
+edition = "2021"
+authors.workspace = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+# 声明 hello_macro_derive crate 是过程宏 (proc-macro) crate
+proc-macro = true
+
+[dependencies]
+# 我们还需要 syn 和 quote crate 中的功能，正如你即将看到的，需要将它们加到依赖中。
+syn = "2.0.48"
+quote = "1.0.35"
