@@ -7,5 +7,6 @@ members = [
     "hello_macro",
     "hello_macro_derive",
     "hello_macro_attribute",
-    "hello_macro_fn",
+
 ]
+default-members = ["hello_macro_fn"]
